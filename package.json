@@ -1,0 +1,16 @@
+{
+  "name": "mongo_db_in_memory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mongodb-memory-server": "^8.15.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.3"
+  }
+}
